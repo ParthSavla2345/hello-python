@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SONARQUBE = 'sonarqube'
+        SONARQUBE = 'sonarqube'//sonarqube
         SCANNER = 'SonarScanner'
         SONAR_PROJECT_KEY = 'hello-python'
         SONAR_API_TOKEN = credentials('sonar-token')  // Jenkins secret
